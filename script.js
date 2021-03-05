@@ -17,7 +17,6 @@ data
     return response.json();
   })
   .then(function (response) {
-    console.log(response);
     for (i in response) {
       //Creating card of data from APi
       let card = document.createElement("div");
