@@ -65,7 +65,7 @@ data
 function btnclick(clicked) {
   // Getting wetaher from Api
   let weatherdata = fetch(
-    "http://api.openweathermap.org/data/2.5/weather?q=" +
+    "https://api.openweathermap.org/data/2.5/weather?q=" +
       clicked +
       "&appid=57543d24c60e5811ba0c96d195e7de85"
   );
